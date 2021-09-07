@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-strapi",
+  "name": "strapi-mongo",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -20,9 +20,7 @@
     "strapi-plugin-email": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-i18n": "3.6.8",
-    "strapi-connector-bookshelf": "3.6.8",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0",
+    "strapi-connector-mongoose": "3.6.8",
     "mime-types": "^2.1.27",
     "strapi-plugin-graphql": "3.6.8"
   },
@@ -30,7 +28,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "427f575a-736e-4ed5-b0b6-5998783eb56c",
+    "uuid": "0f62f311-9df1-4430-b1c1-e255664f1473",
     "template": "https://github.com/strapi/strapi-template-blog"
   },
   "engines": {
