@@ -9,6 +9,7 @@ const dbName = process.env.NODE_ENV === 'production' ?
 const dbSrv = process.env.NODE_ENV === 'production'
 const dbUri = process.env.NODE_ENV === 'production' ?
   process.env.DATABASE_URI : 'mongodb://localhost:27017/strapi-mongo'
+const dbSsl = process.env.NODE_ENV === 'production'
 
 module.exports = ({ env }) => ({
   defaultConnection: 'default',
@@ -31,7 +32,7 @@ module.exports = ({ env }) => ({
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
-        ssl: env.bool('DATABASE_SSL', true),
+        ssl: env.bool('DATABASE_SSL', dbSsl),
       },
     },
   },
