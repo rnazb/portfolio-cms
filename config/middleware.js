@@ -8,5 +8,11 @@ module.exports = {
       enable: true,
       origin: ['*'],
     },
+    // gzip: {
+    //   enabled: true,
+    //   options: {
+    //     br: false
+    //   }
+    // }
   },
-};
+}

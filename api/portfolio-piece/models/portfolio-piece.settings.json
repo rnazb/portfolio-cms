@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_pieces",
+  "info": {
+    "name": "Portfolio Piece",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext"
+    },
+    "Screenshots": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "Title": {
+      "type": "richtext"
+    }
+  }
+}
