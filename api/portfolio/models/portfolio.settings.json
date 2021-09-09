@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "portfolio_pieces",
+  "collectionName": "portfolio",
   "info": {
-    "name": "Portfolio Piece",
+    "name": "Portfolio",
     "description": ""
   },
   "options": {
