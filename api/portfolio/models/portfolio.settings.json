@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Screenshots": {
+    "screenshots": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,11 +27,11 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Slug": {
+    "slug": {
       "type": "uid"
     },
-    "Title": {
-      "type": "richtext"
+    "title": {
+      "type": "string"
     }
   }
 }
